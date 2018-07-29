@@ -1,0 +1,60 @@
+
+LogisticRegression
+Logit scores
+accuracy_score=  2309
+f1_macro=  0.3321253118106173
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+f1_micro=  0.8309412297930201
+f1_weighted=  0.7933387376200491
+precision_macro=  0.2522125349171969
+precision_micro=  0.7062317049618488
+precision_weighted=  0.7155491951129338
+recall_macro=  0.2639732988423159
+recall_micro=  0.7345085470085471
+recall_weighted=  0.7345085470085471
+auc_macro=  0.631730578856758
+auc_micro=  0.867021034959085
+auc_weighted=  0.865364067026421
+
+LinearSVC
+LinearSVC scores
+accuracy_score=  2469
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+f1_macro=  0.4760577131256369
+f1_micro=  0.8700158341730243
+f1_weighted=  0.8484642742243044
+precision_macro=  0.3823291161151542
+precision_micro=  0.7642032447339004
+precision_weighted=  0.7738505304822869
+recall_macro=  0.40582085354921155
+recall_micro=  0.8071581196581197
+recall_weighted=  0.8071581196581197
+auc_macro=  0.7025486194275727
+auc_micro=  0.9032413304156267
+auc_weighted=  0.9014939438401918
+
+RandomForest
+RandomForest scores
+accuracy_score=  1938
+f1_macro=  0.13379050199656656
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1135: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+f1_micro=  0.7185085656701378
+f1_weighted=  0.6302578866062414
+precision_macro=  0.09663082225733532
+precision_micro=  0.5588667008288113
+precision_weighted=  0.5708290126196774
+recall_macro=  0.09474386693992748
+recall_micro=  0.5713141025641025
+recall_weighted=  0.5713141025641025
+auc_macro=  0.547217102537444
+auc_micro=  0.7855245717883842
+auc_weighted=  0.7839024805889625
+Tag:	cotton-oil
+Top positive words:	rejected, contamination, cottonseed, radioactive, egypt
+Top negative words:	tonnes, wheat, palm, weekly, export
+PyDev console: using IPython 6.4.0
+Python 3.6.5 |Anaconda, Inc.| (default, Apr 26 2018, 08:42:37) 
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin

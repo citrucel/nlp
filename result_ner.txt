@@ -1,0 +1,74 @@
+len(token2idx)=21235, len(idx2token)=21235
+len(tag2idx)=21, len(idx2tag)=21
+len(token2idx)=21235, len(idx2token)=21235
+len(tag2idx)=21, len(idx2tag)=22
+
+Start training... 
+-------------------- Epoch 1 of 4 --------------------
+Train data evaluation:
+processed 105778 tokens with 4489 phrases; found: 68908 phrases; correct: 166.
+precision:  0.24%; recall:  3.70%; F1:  0.45
+Validation data evaluation:
+processed 12836 tokens with 537 phrases; found: 8306 phrases; correct: 18.
+precision:  0.22%; recall:  3.35%; F1:  0.41
+-------------------- Epoch 2 of 4 --------------------
+Train data evaluation:
+processed 105778 tokens with 4489 phrases; found: 2460 phrases; correct: 683.
+precision:  27.76%; recall:  15.21%; F1:  19.66
+Validation data evaluation:
+processed 12836 tokens with 537 phrases; found: 215 phrases; correct: 63.
+precision:  29.30%; recall:  11.73%; F1:  16.76
+-------------------- Epoch 3 of 4 --------------------
+Train data evaluation:
+processed 105778 tokens with 4489 phrases; found: 4746 phrases; correct: 2335.
+precision:  49.20%; recall:  52.02%; F1:  50.57
+Validation data evaluation:
+processed 12836 tokens with 537 phrases; found: 358 phrases; correct: 156.
+precision:  43.58%; recall:  29.05%; F1:  34.86
+-------------------- Epoch 4 of 4 --------------------
+Train data evaluation:
+processed 105778 tokens with 4489 phrases; found: 4539 phrases; correct: 3323.
+precision:  73.21%; recall:  74.03%; F1:  73.62
+Validation data evaluation:
+processed 12836 tokens with 537 phrases; found: 357 phrases; correct: 181.
+precision:  50.70%; recall:  33.71%; F1:  40.49
+training finished.
+-------------------- Train set quality: --------------------
+processed 105778 tokens with 4489 phrases; found: 4601 phrases; correct: 3718.
+precision:  80.81%; recall:  82.82%; F1:  81.80
+	     company: precision:   74.97%; recall:   95.02%; F1:   83.81; predicted:   815
+	    facility: precision:   75.62%; recall:   86.94%; F1:   80.89; predicted:   361
+	     geo-loc: precision:   89.06%; recall:   97.29%; F1:   92.99; predicted:  1088
+	       movie: precision:   20.00%; recall:    1.47%; F1:    2.74; predicted:     5
+	 musicartist: precision:   52.80%; recall:   77.16%; F1:   62.70; predicted:   339
+	       other: precision:   83.93%; recall:   84.15%; F1:   84.04; predicted:   759
+	      person: precision:   92.42%; recall:   93.57%; F1:   92.99; predicted:   897
+	     product: precision:   66.77%; recall:   68.87%; F1:   67.80; predicted:   328
+	  sportsteam: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     8
+	      tvshow: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     1
+-------------------- Validation set quality: --------------------
+processed 12836 tokens with 537 phrases; found: 404 phrases; correct: 185.
+precision:  45.79%; recall:  34.45%; F1:  39.32
+	     company: precision:   46.90%; recall:   50.96%; F1:   48.85; predicted:   113
+	    facility: precision:   40.00%; recall:   41.18%; F1:   40.58; predicted:    35
+	     geo-loc: precision:   69.14%; recall:   49.56%; F1:   57.73; predicted:    81
+	       movie: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     0
+	 musicartist: precision:    9.30%; recall:   14.29%; F1:   11.27; predicted:    43
+	       other: precision:   46.94%; recall:   28.40%; F1:   35.38; predicted:    49
+	      person: precision:   53.45%; recall:   27.68%; F1:   36.47; predicted:    58
+	     product: precision:   16.00%; recall:   11.76%; F1:   13.56; predicted:    25
+	  sportsteam: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     0
+	      tvshow: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     0
+-------------------- Test set quality: --------------------
+processed 13258 tokens with 604 phrases; found: 451 phrases; correct: 216.
+precision:  47.89%; recall:  35.76%; F1:  40.95
+	     company: precision:   41.98%; recall:   40.48%; F1:   41.21; predicted:    81
+	    facility: precision:   37.74%; recall:   42.55%; F1:   40.00; predicted:    53
+	     geo-loc: precision:   76.27%; recall:   54.55%; F1:   63.60; predicted:   118
+	       movie: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     0
+	 musicartist: precision:    8.33%; recall:   11.11%; F1:    9.52; predicted:    36
+	       other: precision:   38.27%; recall:   30.10%; F1:   33.70; predicted:    81
+	      person: precision:   55.74%; recall:   32.69%; F1:   41.21; predicted:    61
+	     product: precision:   19.05%; recall:   14.29%; F1:   16.33; predicted:    21
+	  sportsteam: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     0
+	      tvshow: precision:    0.00%; recall:    0.00%; F1:    0.00; predicted:     0
